@@ -1,16 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
-import CharacterCard from './CharacterCard.js';
-import WordCard from './WordCard.js';
-
-const word = "computerengineering";
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <WordCard value="computerengineering" />
-      </div>
-    );
+import React, { Component} from'react';
+import'./App.css';
+class App extends Component
+{render() 
+  {return(
+    <div className="App">Hello World</div>
+    )
+    ;
   }
-}
-export default App;
+}export default App;
